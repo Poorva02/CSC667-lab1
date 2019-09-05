@@ -4,6 +4,7 @@
 class Something {
   constructor(name) {
     this.name = name;
+    this.Myname= Myname;
   }
 
   hello() {
@@ -21,3 +22,6 @@ s.hello();
 // add a property after the object has been instantiated
 
 // add a static function
+Subclass.myfuncttion();
+
+Subclass.prototype.test =4;
